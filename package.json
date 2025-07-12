@@ -1,0 +1,22 @@
+{
+  "name": "mern-tailwind-app",
+  "version": "1.0.0",
+  "description": "A MERN stack application with Tailwind CSS and shadcn/ui",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm install && npm run install-server && npm run install-client"
+  },
+  "keywords": ["mern", "react", "node", "express", "mongodb", "tailwind", "shadcn"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

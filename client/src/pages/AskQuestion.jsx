@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../co
 import { Input } from '../components/ui/input'
 import { Label } from '../components/ui/label'
 import { Alert, AlertDescription } from '../components/ui/alert'
-import RichTextEditor from '../components/RichTextEditor'
+// import RichTextEditor from '../components/RichTextEditor'
 import TagInput from '../components/TagInput'
 import axios from 'axios'
 import { MessageSquare, Save, X } from 'lucide-react'
@@ -138,12 +138,12 @@ const AskQuestion = () => {
               <Label htmlFor="description">
                 Description <span className="text-red-500">*</span>
               </Label>
-              <RichTextEditor
+              {/* <RichTextEditor
                 value={formData.description}
                 onChange={(value) => handleInputChange('description', value)}
                 placeholder="Describe your problem in detail. Include what you've tried and what you're expecting..."
                 minHeight="300px"
-              />
+              /> */}
               <p className="text-sm text-gray-600">
                 Include all the information someone would need to answer your question
               </p>

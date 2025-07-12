@@ -1,4 +1,4 @@
-# MERN Stack App with Tailwind CSS and shadcn/ui
+# StackIt with Tailwind CSS and shadcn/ui
 
 A full-stack MERN application with modern UI components and styling.
 
@@ -106,3 +106,20 @@ npx shadcn-ui@latest add input
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
+
+
+## Team member
+### Team Name - Team 1192
+### Team Leader 
+Name - Virti Shah
+
+Email - vpshah247@gmail.com
+
+Phone - 9429410249
+
+### Team Member 1
+Name - Manushi Oza
+
+Email - manushi2003@gmail.com
+
+Phone - 9427325883
